@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ZoomImageView">
+        <attr name="ZoomImageViewDefault" format="reference"/>
+        <attr name="rotation" format="boolean" />
+        <attr name="scaledown" format="boolean" />
+    </declare-styleable>
+
+    <declare-styleable name="PaginationIndicator">
+        <attr name="number_tip_count" format="integer"/>
+        <attr name="selected_color" format="color"/>
+        <attr name="unselected_color" format="color"/>
+        <attr name="text_size" format="dimension"/>
+        <attr name="rect_size" format="dimension"/>
+
+    </declare-styleable>
+    <declare-styleable name="PaginationRecycleView" parent="PaginationIndicator">
+
+    </declare-styleable>
+    <declare-styleable name="FullscreenAttrs">
+        <attr name="fullscreenBackgroundColor" format="color" />
+        <attr name="fullscreenTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomSpinner">
+        <attr name="titleText" format="string" />
+        <attr name="entries" format="reference" />
+        <attr name="spinnerLayout" format="reference" />
+    </declare-styleable>
+
+    <declare-styleable name="SearchableSpinner">
+        <attr name="hintText" format="string"/>
+    </declare-styleable>
+</resources>

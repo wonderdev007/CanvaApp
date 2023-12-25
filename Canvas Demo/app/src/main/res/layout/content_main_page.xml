@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/overlay"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.pencil.prescription.activites.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+    <RelativeLayout
+        android:id="@+id/main_relative_draw"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/transparent_black"
+        android:visibility="visible">
+
+        <com.com.drawingcanvas.DrawingCanvas
+            android:id="@+id/drawing_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:elevation="0dp"
+            app:brush="calligraphy"
+            app:brush_color="#0000FF"
+            app:brush_size="0.1"
+            app:drawing_background_color="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/lyt_text_cncl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+    </RelativeLayout>
+
+    <com.pencil.prescription.CropImageView
+        android:id="@+id/cropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="0dp"
+        custom:scv_background_color="@color/transparent"
+        custom:scv_crop_mode="free"
+        custom:scv_frame_color="@color/colorAccent"
+        custom:scv_frame_stroke_weight="1dp"
+        custom:scv_guide_color="@color/colorAccent"
+        custom:scv_guide_show_mode="not_show"
+        custom:scv_guide_stroke_weight="1dp"
+        custom:scv_handle_color="@color/colorAccent"
+        custom:scv_handle_show_mode="show_always"
+        custom:scv_overlay_color="@color/overlay"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/lyt_copy_cncl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:background="@color/transparent"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <ImageView
+            android:id="@+id/no"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/shape_circle"
+            android:backgroundTint="@color/red"
+            android:gravity="center"
+            android:src="@drawable/ic_clear_white_48dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|top"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/yes"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:background="@drawable/shape_circle"
+                android:backgroundTint="@color/green"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/ic_check_white_48dp" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

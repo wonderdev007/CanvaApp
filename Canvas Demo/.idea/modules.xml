@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Canvas_Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Canvas_Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.unitTest.iml" />
+    </modules>
+  </component>
+</project>

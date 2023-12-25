@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="false"
+    tools:context="com.pencil.prescription.activites.MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/gray"
+            app:popupTheme="@style/AppTheme.PopupOverlay">
+
+            <RelativeLayout
+                android:id="@+id/lyt_tool"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="36dp"
+                android:layout_centerInParent="true"
+                android:visibility="visible">
+                <!--android:layout_marginEnd="30dp"-->
+
+                <RelativeLayout
+                    android:id="@+id/lyt_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/btn_add_img"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:clickable="true"
+                        android:background="@drawable/tool"
+                        app:srcCompat="@drawable/ic_add_image"
+                        android:contentDescription="tool"/>
+
+                    <ImageView
+                        android:id="@+id/btn_add_camera"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="6dp"
+                        android:layout_toRightOf="@+id/btn_add_img"
+                        android:scaleType="center"
+                        android:clickable="true"
+                        android:background="@drawable/tool"
+                        app:srcCompat="@drawable/ic_camera"
+                        android:contentDescription="tool"/>
+
+                    <ImageView
+                        android:id="@+id/undo_tool"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:layout_marginStart="6dp"
+                        android:layout_toRightOf="@+id/btn_add_camera"
+                        android:clickable="true"
+                        android:background="@drawable/tool"
+                        app:srcCompat="@drawable/ic_undo"
+                        android:contentDescription="tool"
+                        android:visibility="visible"/>
+
+                    <ImageView
+                        android:id="@+id/redo_tool"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:layout_marginStart="6dp"
+                        android:layout_toRightOf="@+id/undo_tool"
+                        android:clickable="true"
+                        android:background="@drawable/tool"
+                        app:srcCompat="@drawable/ic_redo"
+                        android:contentDescription="tool"
+                        android:visibility="visible"/>
+
+                    <ImageView
+                        android:id="@+id/btn_move_lock"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:clickable="true"
+                        android:layout_marginStart="6dp"
+                        android:background="@drawable/tool"
+                        android:layout_toRightOf="@+id/redo_tool"
+                        app:srcCompat="@drawable/ic_lock"
+                        android:contentDescription="tool" />
+
+                    <ImageView
+                        android:id="@+id/view_img1"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:layout_marginStart="16dp"
+                        android:layout_toRightOf="@+id/btn_move_lock"
+                        android:background="@drawable/tool"
+                        android:clickable="true"
+                        android:contentDescription="tool"
+                        android:scaleType="center"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/ic_first" />
+
+                    <ImageView
+                        android:id="@+id/view_img2"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:clickable="true"
+                        android:layout_marginStart="6dp"
+                        android:background="@drawable/tool"
+                        android:layout_toRightOf="@+id/view_img1"
+                        app:srcCompat="@drawable/ic_second"
+                        android:contentDescription="tool" />
+
+                    <ImageView
+                        android:id="@+id/view_save"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:clickable="true"
+                        android:layout_marginStart="6dp"
+                        android:background="@drawable/tool"
+                        android:layout_toRightOf="@+id/view_img2"
+                        app:srcCompat="@drawable/ic_save"
+                        android:contentDescription="tool" />
+
+                </RelativeLayout>
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main_page" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
