@@ -11,11 +11,31 @@
     tools:context="com.pencil.prescription.activites.MainActivity"
     tools:showIn="@layout/app_bar_main">
 
+    <SeekBar
+        android:id="@+id/fontSizeSeekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="16" />
+
+    <Spinner
+        android:id="@+id/colorSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40px"/>
+
+    <Spinner
+        android:id="@+id/fontSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="90px"/>
+
     <RelativeLayout
         android:id="@+id/main_relative_draw"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/transparent_black"
+        android:layout_marginTop="170px"
         android:visibility="visible">
 
         <com.com.drawingcanvas.DrawingCanvas

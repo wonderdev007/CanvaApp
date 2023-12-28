@@ -2,15 +2,33 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Canvas_Demo.iml" filepath="$PROJECT_DIR$/.idea/modules/Canvas_Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Canvas_Demo.app.unitTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.androidTest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Canvas_Demo.drawingview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Android.canva-app.iml" filepath="$PROJECT_DIR$/.idea/modules/Android.canva-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/Android.canva-app.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/Android.canva-app.drawingview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canva-app.iml" filepath="$PROJECT_DIR$/.idea/modules/canva-app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/canva-app-britness.iml" filepath="$PROJECT_DIR$/.idea/modules/canva-app-britness.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app-britness.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app-britness.drawingview.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/canva-app.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/canva-app.app.unitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.main.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/drawingview/canva-app.drawingview.unitTest.iml" />
     </modules>
   </component>
 </project>

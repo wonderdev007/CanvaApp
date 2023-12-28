@@ -132,6 +132,18 @@
                         app:srcCompat="@drawable/ic_save"
                         android:contentDescription="tool" />
 
+                    <ImageView
+                        android:id="@+id/view_change"
+                        android:layout_width="36dp"
+                        android:layout_height="36dp"
+                        android:scaleType="center"
+                        android:clickable="true"
+                        android:layout_marginStart="6dp"
+                        android:background="@drawable/tool"
+                        android:layout_toRightOf="@+id/view_save"
+                        app:srcCompat="@drawable/ic_save"
+                        android:contentDescription="tool" />
+
                 </RelativeLayout>
             </RelativeLayout>
         </androidx.appcompat.widget.Toolbar>

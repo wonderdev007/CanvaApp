@@ -1,13 +1,13 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 29 // Update this to 31 or higher
     buildToolsVersion '29.0.2'
 
     defaultConfig {
         applicationId "com.canvas.script"
         minSdkVersion 21
-        targetSdkVersion 29
+        targetSdkVersion 29 // Update this to 31 or higher
         versionCode 7
         useLibrary 'org.apache.http.legacy'
         resValue 'string', "version_name", "Version 1.0.0"
@@ -60,5 +60,9 @@ dependencies {
     annotationProcessor "com.github.hotchemi:permissionsdispatcher-processor:2.4.0"
     implementation "com.tbruyelle.rxpermissions2:rxpermissions:0.9.4@aar"
 
+    implementation 'cz.adaptech.tesseract4android:tesseract4android:4.1.0'
+
     api 'com.theartofdev.edmodo:android-image-cropper:2.8.+'
+
+//    implementation 'com.github.Dhaval2404:ColorPicker:2.3'
 }
